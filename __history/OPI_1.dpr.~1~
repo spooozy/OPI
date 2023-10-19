@@ -1,0 +1,14 @@
+program OPI_1;
+
+uses
+  Vcl.Forms,
+  OPI1 in 'OPI1.pas' {B};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TB, B);
+  Application.Run;
+end.
