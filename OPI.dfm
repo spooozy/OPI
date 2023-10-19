@@ -4,7 +4,7 @@ object Form1: TForm1
   Caption = 'Form1'
   ClientHeight = 405
   ClientWidth = 723
-  Color = clCream
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
@@ -16,7 +16,7 @@ object Form1: TForm1
   TextHeight = 15
   object Label1: TLabel
     AlignWithMargins = True
-    Left = 86
+    Left = 82
     Top = 35
     Width = 519
     Height = 55
@@ -28,10 +28,11 @@ object Form1: TForm1
     Font.Name = 'Times New Roman'
     Font.Style = [fsBold]
     ParentFont = False
+    ExplicitLeft = 86
   end
   object Label2: TLabel
     AlignWithMargins = True
-    Left = 275
+    Left = 271
     Top = 115
     Width = 49
     Height = 36
@@ -48,8 +49,8 @@ object Form1: TForm1
   end
   object Label3: TLabel
     AlignWithMargins = True
-    Left = 291
-    Top = 111
+    Left = 287
+    Top = 110
     Width = 12
     Height = 27
     Anchors = []
@@ -65,7 +66,7 @@ object Form1: TForm1
   end
   object Label4: TLabel
     AlignWithMargins = True
-    Left = 450
+    Left = 443
     Top = 115
     Width = 49
     Height = 36
@@ -82,7 +83,7 @@ object Form1: TForm1
   end
   object Label5: TLabel
     AlignWithMargins = True
-    Left = 618
+    Left = 610
     Top = 115
     Width = 42
     Height = 36
@@ -99,7 +100,7 @@ object Form1: TForm1
   end
   object Label6: TLabel
     AlignWithMargins = True
-    Left = 163
+    Left = 160
     Top = 231
     Width = 15
     Height = 36
@@ -116,7 +117,7 @@ object Form1: TForm1
   end
   object Label7: TLabel
     AlignWithMargins = True
-    Left = 163
+    Left = 160
     Top = 279
     Width = 15
     Height = 36
@@ -133,7 +134,7 @@ object Form1: TForm1
   end
   object Label8: TLabel
     AlignWithMargins = True
-    Left = 180
+    Left = 178
     Top = 245
     Width = 12
     Height = 27
@@ -150,7 +151,7 @@ object Form1: TForm1
   end
   object Label9: TLabel
     AlignWithMargins = True
-    Left = 204
+    Left = 201
     Top = 236
     Width = 18
     Height = 36
@@ -167,7 +168,7 @@ object Form1: TForm1
   end
   object Label10: TLabel
     AlignWithMargins = True
-    Left = 180
+    Left = 178
     Top = 293
     Width = 12
     Height = 27
@@ -184,8 +185,8 @@ object Form1: TForm1
   end
   object Label11: TLabel
     AlignWithMargins = True
-    Left = 204
-    Top = 286
+    Left = 201
+    Top = 285
     Width = 18
     Height = 36
     Anchors = []
@@ -201,7 +202,7 @@ object Form1: TForm1
   end
   object A_koeff: TEdit
     AlignWithMargins = True
-    Left = 157
+    Left = 154
     Top = 116
     Width = 105
     Height = 32
@@ -217,10 +218,12 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 0
     OnKeyPress = A_koeffKeyPress
+    ExplicitLeft = 151
+    ExplicitTop = 110
   end
   object B_koeff: TEdit
     AlignWithMargins = True
-    Left = 344
+    Left = 338
     Top = 118
     Width = 105
     Height = 32
@@ -236,10 +239,12 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 1
     OnKeyPress = B_koeffKeyPress
+    ExplicitLeft = 333
+    ExplicitTop = 112
   end
   object C_koeff: TEdit
     AlignWithMargins = True
-    Left = 510
+    Left = 503
     Top = 118
     Width = 105
     Height = 32
@@ -255,10 +260,12 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 2
     OnKeyPress = C_koeffKeyPress
+    ExplicitLeft = 495
+    ExplicitTop = 112
   end
   object answ1: TEdit
     AlignWithMargins = True
-    Left = 244
+    Left = 240
     Top = 235
     Width = 105
     Height = 32
@@ -274,10 +281,12 @@ object Form1: TForm1
     ParentFont = False
     ReadOnly = True
     TabOrder = 3
+    ExplicitLeft = 236
+    ExplicitTop = 224
   end
   object answ2: TEdit
     AlignWithMargins = True
-    Left = 244
+    Left = 240
     Top = 283
     Width = 105
     Height = 32
@@ -293,10 +302,12 @@ object Form1: TForm1
     ParentFont = False
     ReadOnly = True
     TabOrder = 4
+    ExplicitLeft = 236
+    ExplicitTop = 270
   end
   object result: TButton
     AlignWithMargins = True
-    Left = 159
+    Left = 156
     Top = 177
     Width = 137
     Height = 33
@@ -310,5 +321,7 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 5
     OnClick = resultClick
+    ExplicitLeft = 153
+    ExplicitTop = 168
   end
 end
